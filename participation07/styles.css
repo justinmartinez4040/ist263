@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/otto.png");
+  /* ../ means "go up one folder" to reach the shared images folder */
+
+  background-repeat: repeat;
+  /* Repeats across AND down. This is the default, but it's good to write it out */
+}
+
+p {
+  background-color: #FF8200;     /* Hex color (orange) for the paragraph */
+  border: 3px solid #000E54;     /* Border that is not black (dark blue) */
+  color: #000E54;                /* Text color so it's easy to read on orange */
+  padding: 15px;                 /* Space inside the border */
+  margin: 20px;                  /* Space outside the border */
+  width: 250px;                  /* Keeps the box from stretching across the whole screen */
+}
